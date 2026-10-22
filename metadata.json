@@ -1,0 +1,6 @@
+{
+  "name": "Scholaris — Research Paper Recommendation System",
+  "description": "Discover relevant research papers tailored to your query, with intelligent hybrid recommendations and semantic discovery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
