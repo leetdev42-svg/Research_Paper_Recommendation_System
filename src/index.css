@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-pine-950: #0c1c14;
+    --color-pine-900: #122b1e;
+    --color-pine-850: #163526;
+    --color-pine-800: #1a3d2e;
+    --color-pine-700: #234d3b;
+    --color-sage-100: #edf2ec;
+    --color-sage-50: #f5f8f4;
+    --color-sage-200: #e2ebe0;
+    --color-sage-300: #cad9c7;
+    --color-terracotta: #dc5b34;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--color-sage-100);
+    color: var(--color-pine-900);
+    letter-spacing: -0.015em;
+  }
+}
+
+.font-editorial-mono {
+  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
